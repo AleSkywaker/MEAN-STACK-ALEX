@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Calculadora</title>
+    
+    <link rel="stylesheet" href="calculadora1.0.css" type="text/css"/>
+</head>
+
+<body>
+    
+    <form name="fo" id="calculadora" >
+        
+        <h1>CALCULADORA 1.0</h1>
+        
+            <table id="c">
+                <tr>
+                    <td colspan="5"><input type="text" name="visor" id="display" value=""></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="9"  onclick="agregarDisplay(value)"></td>
+                    <td><input type="button" value="7"  onclick="agregarDisplay(value)"></td>
+                    <td><input type="button" value="8"  onclick="agregarDisplay(value)"></td>
+                    <td><input type="button" value="+"  onclick="agregarDisplay(value)"></td>
+                    <td><input type="button" value="-"  onclick="agregarDisplay(value)"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="4"  onclick="agregarDisplay(value)"></td>
+                    <td><input type="button" value="5"  onclick="agregarDisplay(value)"></td>
+                    <td><input type="button" value="6"  onclick="agregarDisplay(value)"></td>
+                    <td><input type="button" value="*"  onclick="agregarDisplay(value)"></td>
+                    <td><input type="button" value="/"  onclick="agregarDisplay(value)"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="3"  onclick="agregarDisplay(value)"></td>
+                    <td><input type="button" value="2"  onclick="agregarDisplay(value)"></td>
+                    <td><input type="button" value="1"  onclick="agregarDisplay(value)"></td>
+                    <td><input type="button" value="<"  onclick="eliminarUltimoNumero()"></td>
+                    <td><input type="button" value="C"  onclick="limpiar()"></td>
+                </tr>
+                 <tr>
+                    <td colspan="2"><input type="button" value="0"  onclick="agregarDisplay(value)"></td>
+                    
+                    <td colspan="3"><input type="button" value="="  id="igual"></td>
+                </tr>
+
+            </table>
+         
+    </form>
+   
+   <div id="parrafo">
+    <h3>Calculadora version 1.0 </h3> 
+    </br>
+    <p>
+     Version muy sencilla de una calculadora</br>
+     creada solo con javascript, para el </br>
+     curso de MEAN STACK; Es una primera</br>
+     version, desarrollada por Alex Colombo, </br>
+     se ha incluido una validación, tal que, </br>
+     si pulsas boton de igual, si realizar </br> 
+     operacion previa, debe aparecer mensaje en </br> 
+     pantalla con el siguiente texto, </br> 
+     "¡Debe operar antes!" </br> 
+     </hr>
+   </p>
+     </br></br> 
+     Madrid 24 de octubre de 2016.
+     </br></br> 
+     </br></br> 
+     </br></br> 
+     </br></br> 
+     </br></br> 
+     </br>
+   </div>
+
+    <script src="calculadora1.0.js"></script>
+    
+</body>
+</html>
