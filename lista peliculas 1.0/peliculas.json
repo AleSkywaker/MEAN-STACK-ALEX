@@ -1,0 +1,39 @@
+{
+  "peliculas": [
+    {
+      "id": 1,
+      "titulo": "Blade Runner",
+      "director": "Ridley Scott",
+      "genero": "Ciencia Ficcion",
+      "fecha": 1982
+    },
+    {
+      "id": 2,
+      "titulo": "Alien",
+      "director": "Ridley Scott",
+      "genero": "Ciencia Ficcion",
+      "fecha": 1979
+    },
+    {
+      "id": 3,
+      "titulo": "Terminator",
+      "director": "James Cameron",
+      "genero": "Ciencia-ficcion",
+      "fecha": 1984
+    },
+    {
+      "id": 4,
+      "titulo": "Septimo Sello",
+      "director": "Ingmar Bergman",
+      "genero": "Ciencia-ficcion",
+      "fecha": 1961
+    },
+    {
+      "id": 5,
+      "titulo": "Everest",
+      "director": "Baltasar Kormákur",
+      "genero": "Drama",
+      "fecha": 2015
+    }
+  ]
+}

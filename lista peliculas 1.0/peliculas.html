@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+
+	<head>
+	<meta charset="UTF-8">
+
+	<link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
+	<link rel="stylesheet" href="jquery-ui-1.10.4.custom/jquery-ui-1.10.4.custom/css/smoothness/jquery-ui-1.10.4.custom.min.css">
+	<link rel="stylesheet" href="bootstrap.css">
+	<link rel="stylesheet" href="peliculas.css">
+
+	<script type="text/javascript" src="jquery-3.1.1.js"></script>
+	<script type="text/javascript" src="jquery-ui-1.10.4.custom/jquery-ui-1.10.4.custom/js/jquery-ui-1.10.4.custom.min.js"></script>
+	<script type="text/javascript" src="peliculas.js"></script>
+    
+	<title>Lista de Peliculas</title>
+    </head>
+
+	<body id="grad" onload="cargarDatos()">
+		<h1>Lista de Peliculas</h1>
+		<br/>
+		<div id="formulario">
+		<form action="">
+			<p>ID :</p>
+			<input type="text" name="id" value=""  id="id"/>
+			<p>TITULO :</p>
+			<input type="text" name="titulo" value=""  id="titulo"/>
+			<p>DIRECTOR:</p>
+			<input type="text" name="director" value=""  id="director"/>
+			<p>GENERO:</p>
+			<input type="text" name="sipnosis" value=""  id="sipnosis" />
+			<p>AÑO:</p>
+			<input type="text" name="fecha" value=""  id="fecha" />
+		</form>
+	</div>
+	<div id="botones">
+		<br/>
+		<button id="agregar">Agregar</button>
+		<button id="actualizar">Actualizar</button>
+		<button id="eliminar">Eliminar</button>
+	</div>
+	<br/>
+	<div id="lista">
+		<table id="tabla">
+			<tr>
+				<th>ID</th>
+				<th>TITULO</th>
+				<th>DIRECTOR</th>
+				<th>GENERO</th>
+				<th>AÑO</th>
+			</tr>
+	 </div>
+	 </table>
+	 <footer id="foot">
+        
+            © 2016 Diseñado por Alex Colombo.
+        
+    </footer>
+</body>
+</html>
